@@ -10,7 +10,7 @@
 ## Commands:
 /cats1/ directory has /cats2/cats3/ and cats4/ directories inside it. What you type is after the "$"
 
-**ls :**  Lists all the files in the current directory
+- **ls :**  Lists all the files in the current directory
 
 By itself it will just print all files in current directory
 ```bash
@@ -33,13 +33,13 @@ cats3/
 
 ```
 
-**pwd:**  Print Working Directory, prints out the path of the current directory
+- **pwd:**  Print Working Directory, prints out the path of the current directory
 ```bash
 ~/Desktop/cats1 $ pwd
 /c/Users/me/Desktop/cats1
  ```
 
-**clear:** clears commands from screen
+- **clear:** clears commands from screen
 
 This is moments after using the clear command
 
@@ -47,7 +47,7 @@ This is moments after using the clear command
 ~/Desktop/cats1 $
 ``` 
 
-**cd:** Change directory, basically your way of travelling the maze that are your files.
+- **cd:** Change directory, basically your way of travelling the maze that are your files.
 
 
 ```bash
@@ -66,7 +66,7 @@ Pay attention to what's before the "$" (current location)
 
 ```
 
-**cat:**  Concatenate, display contents of a file
+- **cat:**  Concatenate, display contents of a file
 _Note:_ Will print out metadata for images
 ```bash
 $ cat <fileName>
@@ -75,7 +75,7 @@ $ cat <fileName>
 ~/Desktop/cats1 $ cat .secretCats.txt
 Secret, shhh!
 ```
-**touch:** Creates file in current directory
+- **touch:** Creates file in current directory
 _Note:_ You can create files without extension
 ```bash
 $ touch <fileNane>.<fileExtension>
@@ -86,7 +86,7 @@ $ touch <fileNane>.<fileExtension>
 catDestroyer.md cats2/ cats4/
 ```
 
-**rm:** Remove, deletes files **_does NOT put them in the trash, SCaaAARy!!_**
+- **rm:** Remove, deletes files **_does NOT put them in the trash, SCaaAARy!!_**
 ```bash
 $ rm <file-you-want-to-delete>
 ```
@@ -107,7 +107,7 @@ cats2/ cats4/
 ~/Desktop/cats1 $ ls 
 cats4/
 ```
-**mkdir:** Make empty directory
+- **mkdir:** Make empty directory
 
 ```bash
 $ mkdir <directoryName>
