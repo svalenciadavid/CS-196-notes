@@ -1,6 +1,9 @@
 # CS 199
 ## bash (Bourne Again SHell) 
 [**Slides (contains setup instructions)**](https://docs.google.com/presentation/d/1iuELVwGU6MBl9vpwHtxOs0x__NFibD2vYLL9QNNc1vw/edit#slide=id.g7cf61f9430_0_48) 
+
+[**Youtube Video**](https://www.youtube.com/watch?v=J1fCBAW9V5g)
+
 ### Keywords:
 **Commands:** Commands are unique statements that indicate specific tasks
 **Arguments:** Variables/inputs needed to complete commands (some commands need more than one argument)
