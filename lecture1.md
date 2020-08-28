@@ -128,3 +128,9 @@ cats/2 cats4/
 cats3/
 ```
 notes mainly for me: leave vim press-> escape ":" and !q or something like that
+For vim, there are two modes: Insert and commands (not sure if those are the actual names, but that's what I call them)
+To exit vim, you must be in command mode. To do so, press escape.
+To enter any commands in command mode, press ":" and then the command.
+Quit is "q". If there are unsaved changes, you can quit without changes using "!" after "q"
+To save changes is "w".
+You can also combine commands, such as ":wq" to save and exit.
