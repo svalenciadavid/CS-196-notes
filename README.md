@@ -9,3 +9,5 @@ If you want to be a contributor let me know, send me a message on discord or som
 List of contributors:
 
 * Me (David Valencia) :)
+* Gisselle Rosas :D
+* Matt Geimer >:)
