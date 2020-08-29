@@ -25,13 +25,13 @@
 By itself it will just print all files in current directory
 ```bash
 ~/Desktop/cats1 $ ls
-cats2/ cats/4
+cats2/ cats4/
 ```
 With the option -a you can see hidden files (they start with " . " ) 
 _Note:_ ./ and  . ./ refers to the outside directories (aka the desktop in this case, where cats1 folder is located
 ```bash
 ~/Desktop/cats1 $ ls -a
-./ ../ .secretCats.txt cats2/ cats/4
+./ ../ .secretCats.txt cats2/ cats4/
 ```
 You can even see files in directories you aren't even at with:
 ```bash
