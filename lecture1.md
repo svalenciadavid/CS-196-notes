@@ -160,9 +160,10 @@ $ mv <file1> <directory_to_copy_to>
 $ man <some_command>
 ```
 ## Piping to files (WIP):
-
-
-
+Piping redirects output from command line, to a file you specify. With both characters typed after the command, ">" creates a new file and ">>" appends to an already existing file (creates a new one if none exist) 
+```bash
+$ ls >> <file_name>
+```
 
 _notes mainly for me: leave vim press-> escape ":" and !q or something like that
 For vim, there are two modes: Insert and commands (not sure if those are the actual names, but that's what I call them)
