@@ -5,6 +5,8 @@ Git is a Version Control System (VCS), it tracks changes on computer files and a
 
 [**Youtube Video**](https://www.youtube.com/watch?v=P_rISC16nP4&feature=youtu.be)
 
+[On Saving Username and Password-> secure method is SSH](https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git-gitextension)
+
 ##  The four environments in Git
 **1.  _Working Directory_**
 	The environment same as OS knows. All files tracked or un-tracked
@@ -84,4 +86,10 @@ This will send your commits off (get uploaded)
 ```bash
 $ git push
 ```
+### log
+Shows commit messages
 
+This will show the commit message you just created
+```bash
+$ git log -1
+```
