@@ -1,7 +1,7 @@
 # Git Guide
 Git is a Version Control System (VCS), it tracks changes on computer files and allows for collaboration between developers.
 
-[**Slides (contains setup instructions)**](https://docs.google.com/presentation/d/18Jvsq6q1Uaj6YXhvrs2-u-tzp5ocExmF52qVz2vzhRI/edit#slide=id.g7c80c909b0_2_44) 
+[**Slides**](https://docs.google.com/presentation/d/18Jvsq6q1Uaj6YXhvrs2-u-tzp5ocExmF52qVz2vzhRI/edit#slide=id.g7c80c909b0_2_44) 
 
 [**Youtube Video**](https://www.youtube.com/watch?v=P_rISC16nP4&feature=youtu.be)
 
