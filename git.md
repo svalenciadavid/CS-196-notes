@@ -70,7 +70,7 @@ Do this one ALWAYS
 ```bash
 $ git commit -m "insert-message-here"
 ```
-This one is only for modified/deleted files
+This one is only for modified/deleted files, it does git add -u and git commit -m at the same time!
 ```bash
 $ git commit -a -m "instert-message-here"
 ```
