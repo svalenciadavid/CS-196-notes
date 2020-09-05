@@ -43,7 +43,7 @@ $ git clone <web-url-from-remote>
 ### pull
 Pulls latest changes done to remote repo
 ```bash
-$ 
+$ git pull
 ```
 
 ### add
