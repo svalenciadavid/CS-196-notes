@@ -4,10 +4,8 @@ This is going to be a collection of the notes for CS 196, written in markdown fo
 
 ### Contributors
 
-If you want to be a contributor let me know, send me a message on discord or something.
+If you want to be a contributor let me know, send me a message on discord or something. -> contributors are on the right side
 
-List of contributors:
-
-* Me (David Valencia) :)
-* Gisselle Rosas :D
-* Matt Geimer >:)
+# For class:
+* Website: http://cs196.cs.illinois.edu
+* Discord Link (if it expires oh well): https://discord.gg/SX7zph2
