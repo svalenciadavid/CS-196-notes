@@ -76,6 +76,9 @@ This one is only for modified/deleted files, it does git add -u and git commit -
 ```bash
 $ git commit -a -m "instert-message-here"
 ```
+you can also combine the -a and -m flags together.
+If you don't type -m after git commit, it will open a text editor in the terminal for you to write a commit message.
+
 **_Note:_** For better commits, follow this guide on 
 [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/ "https://www.conventionalcommits.org/en/v1.0.0/")
 
