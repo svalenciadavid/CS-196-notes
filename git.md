@@ -9,6 +9,7 @@ Git is a Version Control System (VCS), it tracks changes on computer files and a
 
 ----
 Part 2 (Everything that follows the log command)
+
 [**Slides Pt.2**](https://docs.google.com/presentation/d/1I-xHDehKWuUS2DZcNjOAjn9a1mqk_e-bY5vW_W-V8zQ/edit#slide=id.g97303a99ab_0_87) 
 
 [**Youtube Video Pt.2**](TBA)
