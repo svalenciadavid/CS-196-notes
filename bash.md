@@ -440,3 +440,4 @@ myfunc "Jenny" "cold"
 Will print out "Hi Jenny, it's cold outside eh?"
 
 Note how there was no need to specify how many variables our function asked for when we declared it
+Make sure you call the function after declaring it, otherwise it won't run!
