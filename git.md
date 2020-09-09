@@ -110,6 +110,14 @@ or you can use the --oneline flag to view a condensed version of all the commits
 ```bash
 $ git log --oneline
 ```
+### stash
+saves changes without updating the remote
+```bash
+$ git stash 
+$ git stash apply
+```
+use the latter if you want to bring your saved changes back
+
 ### fetch
 Brings in changes, but does not update your local repository working state. 
 A good way to understand this is that Git pull finds AND updates your repo with the latest changes but fetch only finds the changes with other branches. 
