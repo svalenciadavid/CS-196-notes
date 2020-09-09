@@ -128,6 +128,22 @@ You can also specify a specific branch on the remote you want to fetch
 ```bash
 $ git fetch <new-branch>
 ```
+### revert
+revert to an older commit. This copies your older commit and adds it onto the list of commits.
+```bash
+$ git revert <old commit>
+```
+### reset
+resets back to the older commit and drops all the changes that came after it. DOESN'T STAGE CHANGES
+```bash
+$ git reset <old commit>
+```
+Does the same thing as above but does stage changes:
+```bash
+$ git reset <old commit> --hard
+```
+use wisely...
+
 https://git-scm.com/docs/git-fetch has more info on how you can use fetch
 
 ## About merge conflicts
