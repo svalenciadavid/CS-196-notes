@@ -96,3 +96,6 @@ This will show the commit message you just created
 ```bash
 $ git log -1
 ```
+
+### checkout
+-b creates a new branch
