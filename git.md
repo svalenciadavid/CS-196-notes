@@ -116,6 +116,10 @@ A good way to understand this is that Git pull finds AND updates your repo with 
 ```bash
 $ git fetch
 ```
+You can also specify a specific branch on the remote you want to fetch
+```bash
+$ git fetch "xyz"
+```
 https://git-scm.com/docs/git-fetch has more info on how you can use fetch
 
 ## About merge conflicts
@@ -137,7 +141,7 @@ print("NO I actually wanted to print THIS!")
 # Branching
 How to isolate work in progress, from completed work (in master branch), AKA: Version control. 
 
-## branching commands
+## Branching commands
 Branching is used to isolate work in progress, from completed work (in master branch), AKA: Version control. 
 
 **Note:** Merging conflics will still happen when merging the branch back into master (aka when pushing a completed feature to the project)
@@ -159,6 +163,7 @@ $ git checkout <branch-name>
 $ git checkout -b <branch-name>
 ``` 
 ### merge
+When you are done making changes to your branch, you can merge into the master using this command. This also works for merging two non-master branches together.
 ```bash
 $ git merge <branch-you're-merging-into>
 ``` 
