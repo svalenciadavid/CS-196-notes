@@ -1,10 +1,18 @@
 # Git Guide
 Git is a Version Control System (VCS), it tracks changes on computer files and allows for collaboration between developers.
 
-[**Slides**](https://docs.google.com/presentation/d/18Jvsq6q1Uaj6YXhvrs2-u-tzp5ocExmF52qVz2vzhRI/edit#slide=id.g7c80c909b0_2_44) 
+[**Slides Pt.1**](https://docs.google.com/presentation/d/18Jvsq6q1Uaj6YXhvrs2-u-tzp5ocExmF52qVz2vzhRI/edit#slide=id.g7c80c909b0_2_44) 
 
-[**Youtube Video**](https://www.youtube.com/watch?v=P_rISC16nP4&feature=youtu.be)
+[**Youtube Video Pt.1**](https://www.youtube.com/watch?v=P_rISC16nP4&feature=youtu.be)
 
+
+----
+Part 2 (Everything that follows the log command)
+[**Slides Pt.2**](https://docs.google.com/presentation/d/1I-xHDehKWuUS2DZcNjOAjn9a1mqk_e-bY5vW_W-V8zQ/edit#slide=id.g97303a99ab_0_87) 
+
+[**Youtube Video Pt.2**](TBA)
+
+---
 [On Saving Username and Password-> secure method is SSH](https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git-gitextension)
 
 ##  The four environments in Git
@@ -76,6 +84,9 @@ This one is only for modified/deleted files, it does git add -u and git commit -
 ```bash
 $ git commit -a -m "instert-message-here"
 ```
+you can also combine the -a and -m flags together.
+If you don't type -m after git commit, it will open a text editor in the terminal for you to write a commit message.
+
 **_Note:_** For better commits, follow this guide on 
 [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/ "https://www.conventionalcommits.org/en/v1.0.0/")
 
@@ -93,3 +104,54 @@ This will show the commit message you just created
 ```bash
 $ git log -1
 ```
+### fetch
+Brings in changes, but does not update your local repository working state
+ __UHHHHHHHHH???? add stuff here pls i still also don't completely get it__
+
+## About merge conflicts
+A merge conflict happens when there are conflicting changes on the same line
+
+In this case, somebody made a change to this python file, as I was making changes in my local repo, as I tried to pull the changes, because we both had worked on the same file and edited the same line, git does not know which change to keep/get rid of, so it lets you choose.
+```python
+<<<<<<<<<<<< HEAD
+print("hello")
+============
+print("NO I actually wanted to print THIS!")
+>>>>>>>>>>>>>a486cae486a
+``` 
+The solution, is to simply pick what change you want to pick, either one, the other, or both! Then, get rid of the separators git shows(<<<HEAD and the ID)
+```python
+print("NO I actually wanted to print THIS!")
+```
+
+# Branching
+How to isolate work in progress, from completed work (in master branch), AKA: Version control. 
+
+## branching commands
+Branching is used to isolate work in progress, from completed work (in master branch), AKA: Version control. 
+
+**Note:** Merging conflics will still happen when merging the branch back into master (aka when pushing a completed feature to the project)
+
+### branch
+The first line of code creates a branch, the next, lists all branches.
+```bash
+$ git branch hello
+$ git branch
+hello
+* master
+```
+### checkout
+How we navigate between branches (moves the HEAD pointer and updates working directory with files stored in the branch).
+
+-b flag will create AND move to the new branch
+```bash
+$ git checkout <branch-name>
+$ git checkout -b <branch-name>
+``` 
+### merge
+```bash
+$ git merge <branch-you're-merging-into>
+``` 
+**Tips:** 
+* Keep your master branch clean (make sure you can always run it without issues)
+* Name your branches well ( feat/feat-name)
