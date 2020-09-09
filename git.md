@@ -118,7 +118,7 @@ $ git fetch
 ```
 You can also specify a specific branch on the remote you want to fetch
 ```bash
-$ git fetch "xyz"
+$ git fetch <new-branch>
 ```
 https://git-scm.com/docs/git-fetch has more info on how you can use fetch
 
