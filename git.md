@@ -105,9 +105,17 @@ This will show the commit message you just created
 ```bash
 $ git log -1
 ```
+or you can use the --oneline flag to view a condensed version of all the commits
+```bash
+$ git log --oneline
+```
 ### fetch
-Brings in changes, but does not update your local repository working state
- __UHHHHHHHHH???? add stuff here pls i still also don't completely get it__
+Brings in changes, but does not update your local repository working state. 
+A good way to understand this is that Git pull finds AND updates your repo with the latest changes but fetch only finds the changes with other branches. 
+```bash
+$ git fetch
+```
+https://git-scm.com/docs/git-fetch has more info on how you can use fetch
 
 ## About merge conflicts
 A merge conflict happens when there are conflicting changes on the same line
