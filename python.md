@@ -14,3 +14,7 @@ $  python <filename>.py
 $  python3 <filename>.py
 ```
 Either of these methods work.
+Now print "Hello World"
+```bash$
+$  print("Hello World")
+```
