@@ -245,3 +245,56 @@ finally:
 # Output:
 # ah shucks, something happened 
 ```
+## Importing 
+Importing is used to get access to libraries with packages of classes that may provide functionality needed without needing to code it yourself.
+
+
+### Libraries
+Libraries provide a set of helper functions/objects/modules for your code to call
+
+**_Notes:_** If you want good libraries, google for them, check git stars, check documentation(example code), README, check support (look at the issues tab, are people getting the help they need?). 
+
+### Language:
+* **Module:** A file with a .py extension
+* **Package:** a directory containing an \_\_init\_\_.py file
+* **Build in module:** A module natively installed with Python
+* **Object:** anything inside a module/package that can be referenced like a class or function or variable
+
+To import an entire module/package you use:
+```python
+import <module/package>
+# Example:
+import math
+```
+If you only need to use a small portion of it use:
+```python
+from <module/package> import <stuff you're-using>, <stuff>, <stuff>
+# Example:
+from math import gcd, factorial
+```
+You can also change the names of the functions/rename what's being imported:
+```python
+from <module/package> import <stuff you're-using> as <rename-here>
+# Example:
+from math import factorial as <fact>
+print(fact(10))
+# Output prints out 10!
+```
+**What about third party ones?**
+we need a package manager for that because people use libraries to build their libraries, we create then dependency graphs.
+Python's package manager is **Pip**
+(Rust-> Cargo, JS-> NMP, Java-> Maven)
+
+In bash we type:
+```bash
+$ pip install <package-name>
+```
+If we need a lot of packages we create a requirements.txt
+```
+Mako==1.1.1
+MarkupSafe==1.1.1
+six==1.14.8
+```
+```bash
+$ pip install -r requirements.txt
+```
