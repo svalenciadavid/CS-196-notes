@@ -1,11 +1,11 @@
-### Regex
+# Regex
 A **regular expression** is a sequence of characters that define a search pattern.
 
 Tl:dr; they allow you to define a **pattern** to **match** in text.
 
 You can use [regexpal.com](www.regexpal.com) to practice using regex. 
 
-### Cheat Sheet
+## Cheat Sheet
 1. abcdef... are letters
 2. 0123456... are numbers
 3. \d is any digit
@@ -23,7 +23,7 @@ You can use [regexpal.com](www.regexpal.com) to practice using regex.
 15. (..(...)) capture subgroup
 16. (x|y) logical OR
 
-### Examples
+## Examples
 Demo Text:
 ``` Hello, CS196 @ Illinois
 This is the honors add-on to CS125: Introduction to Computer Science!
